@@ -9,7 +9,7 @@ import Link from 'next/link';
 export function Projects() {
     return (
         <div className='py-10 ' id='projects'>
-            <h1 className='text-center sm:text-4xl text-2xl font-medium '>a small selection of {" "}
+            <h1 className='text-center sm:text-5xl text-2xl font-medium '>a small selection of {" "}
                 <span className='text-purple'>Recent Projects</span>
             </h1>
             {/* cards */}
@@ -17,7 +17,7 @@ export function Projects() {
                 {
                     projects.map(proj => (
                         <div key={proj.id} className='md:w-[45%] sm:w-3/4 w-11/12'>
-                            <BackgroundGradient className="rounded-[22px] p-4 sm:p-7  bg-white dark:bg-zinc-900">
+                            <BackgroundGradient className="rounded-[22px] p-5 sm:p-7 bg-white dark:bg-zinc-900">
                                 <Image
                                     src={proj.img}
                                     alt={proj.title}

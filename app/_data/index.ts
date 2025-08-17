@@ -4,6 +4,7 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Skills", link: "#skills" },
+    { name: "Experiences", link: "#experiences" },
     { name: "Contact", link: "#contact" },
 ];
 
@@ -65,18 +66,18 @@ export const gridItems = [
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
-        titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+        titleClassName: "justify-center md:max-w-full max-w-64 text-center",
         img: "",
         spareImg: "",
     },
 ];
 
 export const projects = [
-    
+
     {
         id: 1,
         title: "the wild oasis",
-        des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+        des: "A hotel cabins booking website where users can log in, view cabin details, book cabins, and manage their reservations.",
         img: "/oasis.png",
         iconLists: ["/Next.svg", "/tail.svg", "/supabase.svg", "/GoogleCloud.svg"],
         demo: "",
@@ -85,31 +86,58 @@ export const projects = [
     {
         id: 2,
         title: "Furniture E-commerce",
-        des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+        des: "Responsive E-commerce website with authentication, product filtering, cart, and checkout features.",
         img: "/e-commerce.png",
-        iconLists: ["/re.svg", "/tail.svg", "Vite.js.svg","Node.js.svg", "/MongoDB.svg"],
+        iconLists: ["/re.svg", "/tail.svg", "Vite.js.svg", "Node.js.svg", "/MongoDB.svg"],
         demo: "",
         github: "https://github.com/saramedhat258/React-full-e-commerce"
     },
     {
         id: 3,
         title: "Gemini Clone",
-        des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+        des: "context-aware responses, and isolated chat histories. Includes customizable prompt shortcuts for seamless interactions.",
         img: "/gemini.png",
-        iconLists: ["/re.svg", "/Bootstrap.svg", "/CSS3.svg","Vite.js.svg"],
+        iconLists: ["/re.svg", "/Bootstrap.svg", "/CSS3.svg", "Vite.js.svg"],
         demo: "https://saramedhat258.github.io/Gemini-clone/",
         github: "https://github.com/saramedhat258/Gemini-clone"
     },
     {
         id: 4,
         title: "Zakrny",
-        des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+        des: "“Islamic website for daily spiritual reminders — includes Morning & Evening Azkar,full Quran reading & audio, and more...”",
         img: "/zakrny.png",
-        iconLists: ["/HTML5.svg", "/JavaScript.svg","/CsS3.svg"],
+        iconLists: ["/HTML5.svg", "/JavaScript.svg", "/CsS3.svg"],
         demo: "/https://saramedhat258.github.io/Zakrny/",
         github: "https://github.com/saramedhat258/Zakrny"
     },
-    
+
 ];
 
-export const skills=['/HTML5.svg',"/CsS3.svg",'/JavaScript.svg','/ts.svg','/React.svg','/Next.svg','/redux.svg','/vsc.svg','/MaterialUI.svg','/supabase.svg','/git.svg','/github.svg','/Tail.svg','/Bootstrap.svg','/shadcn.svg','/Vite.js.svg'];
+export const skills = ['/HTML5.svg', "/CsS3.svg", '/JavaScript.svg', '/ts.svg', '/React.svg', '/Next.svg', '/redux.svg', '/vsc.svg', '/MaterialUI.svg', '/supabase.svg', '/git.svg', '/github.svg', '/Tail.svg', '/Bootstrap.svg', '/shadcn.svg', '/Vite.js.svg'];
+
+export const workExperience = [
+    {
+        id: 1,
+        title: "ITI - Frontend Training    ",
+        desc: "A focused one-month internship program introducing fundamentals and advanced concepts of Frontend Reactjs.",
+        thumbnail: "/exp1.svg",
+    },
+    {
+        id: 2,
+        title: "IEEE voolanteer - Frontend commit ",
+        desc: "Developed differnt projects, led a team of beginner developers in building a web project. ",
+        thumbnail: "/exp4.svg",
+    },
+    {
+        id: 3,
+        title: "Udemy - jonas Frontend Course ",
+        desc: "Master modern React from beginner to advanced! Next.js, Context API, React Query, Redux, Tailwind, advanced patterns.",
+        thumbnail: "/exp3.svg",
+    }, {
+        id: 4,
+        title: "CCIC - FrontEnd training",
+        desc: "Developed ReactJS applications using Bootstrap for responsive design, while strengthening core skills in HTML5, CSS3, and JS.",
+        thumbnail: "/exp2.svg",
+    },
+
+];
