@@ -79,7 +79,7 @@ export const projects = [
         title: "the wild oasis",
         des: "A hotel cabins booking website where users can log in, view cabin details, book cabins, and manage their reservations.",
         img: "/oasis.png",
-        iconLists: ["/Next.svg", "/tail.svg", "/supabase.svg", "/GoogleCloud.svg"],
+        iconLists: ["/next.svg", "/tail.svg", "/supabase.svg", "/GoogleCloud.svg"],
         demo: "https://the-wild-oasis-seven-green.vercel.app/",
         github: "https://github.com/saramedhat258/the-wild-oasis"
     },
@@ -96,7 +96,7 @@ export const projects = [
         id: 3,
         title: "Gemini Clone",
         des: "context-aware responses, and isolated chat histories. Includes customizable prompt shortcuts for seamless interactions.",
-        img: "/gemini.png",
+        img: "/Gemini.png",
         iconLists: ["/re.svg", "/Bootstrap.svg", "/CSS3.svg", "Vite.js.svg"],
         demo: "https://saramedhat258.github.io/Gemini-clone/",
         github: "https://github.com/saramedhat258/Gemini-clone"
@@ -106,14 +106,14 @@ export const projects = [
         title: "Zakrny",
         des: "“Islamic website for daily spiritual reminders — includes Morning & Evening Azkar,full Quran reading & audio, and more...”",
         img: "/zakrny.png",
-        iconLists: ["/HTML5.svg", "/JavaScript.svg", "/CsS3.svg"],
+        iconLists: ["/HTML5.svg", "/JavaScript.svg", "/CSS3.svg"],
         demo: "/https://saramedhat258.github.io/Zakrny/",
         github: "https://github.com/saramedhat258/Zakrny"
     },
 
 ];
 
-export const skills = ['/HTML5.svg', "/CsS3.svg", '/JavaScript.svg', '/ts.svg', '/React.svg', '/Next.svg', '/redux.svg', '/vsc.svg', '/MaterialUI.svg', '/supabase.svg', '/git.svg', '/github.svg', '/Tail.svg', '/Bootstrap.svg', '/shadcn.svg', '/Vite.js.svg'];
+export const skills = ['/HTML5.svg', "/CSS3.svg", '/JavaScript.svg', '/ts.svg', '/React.svg', '/next.svg', '/Redux.svg', '/vsc.svg', '/MaterialUI.svg', '/supabase.svg', '/Git.svg', '/Github.svg', '/tail.svg', '/Bootstrap.svg', '/shadcn.svg', '/Vite.js.svg'];
 
 export const workExperience = [
     {
