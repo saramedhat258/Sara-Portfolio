@@ -10,20 +10,18 @@ import { cn } from "@/app/_lib/utils";
 import { Download } from "lucide-react";
 import Link from "next/link";
 
-
-export const FloatingNav = ({
-    navItems,
-    className,
-}: {
-    navItems: {
-        name: string;
-        link: string;
-        icon?: JSX.Element;
-    }[];
+type NavItem = {
+    name: string;
+    link: string;
+    icon?: React.ReactNode;
+};
+type FloatingNavProps = {
+    navItems: NavItem[];
     className?: string;
-}) => {
-    const { scrollYProgress } = useScroll();
+};
+export const FloatingNav = ({ navItems, className }: FloatingNavProps) => {
 
+    const { scrollYProgress } = useScroll();
     const [visible, setVisible] = useState(true);
 
     useMotionValueEvent(scrollYProgress, "change", (current) => {
@@ -68,7 +66,7 @@ export const FloatingNav = ({
                     border: "1px solid rgba(255, 255, 255, 0.125)",
                 }}
             >
-                {navItems.map((navItem: any, idx: number) => (
+                {navItems.map((navItem:NavItem, idx: number) => (
                     <a
                         key={`link=${idx}`}
                         href={navItem.link}
@@ -81,11 +79,11 @@ export const FloatingNav = ({
                     </a>
                 ))}
                 <Link
-                href="/sara-medhat.pdf"
-                download="Sara-medhat-CV.pdf"
-                className=" flex gap-2 items-center border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white sm:px-4 px-2 py-2 rounded-full">
+                    href="/sara-medhat.pdf"
+                    download="Sara-medhat-CV.pdf"
+                    className=" flex gap-2 items-center border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white sm:px-4 px-2 py-2 rounded-full">
                     <span>CV</span>
-                    <Download size={20}/>
+                    <Download size={20} />
                     <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
                 </Link>
             </motion.div>
