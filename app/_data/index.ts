@@ -80,7 +80,7 @@ export const projects = [
         des: "A hotel cabins booking website where users can log in, view cabin details, book cabins, and manage their reservations.",
         img: "/oasis.png",
         iconLists: ["/Next.svg", "/tail.svg", "/supabase.svg", "/GoogleCloud.svg"],
-        demo: "",
+        demo: "https://the-wild-oasis-seven-green.vercel.app/",
         github: "https://github.com/saramedhat258/the-wild-oasis"
     },
     {
