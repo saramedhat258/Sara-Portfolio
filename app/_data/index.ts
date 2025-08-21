@@ -113,7 +113,7 @@ export const projects = [
 
 ];
 
-export const skills = ['/HTML5.svg', "/CSS3.svg", '/JavaScript.svg', '/ts.svg', '/React.svg', '/next.svg', '/Redux.svg', '/vsc.svg', '/MaterialUI.svg', '/supabase.svg', '/Git.svg', '/Github.svg', '/tail.svg', '/Bootstrap.svg', '/shadcn.svg', '/Vite.js.svg'];
+export const skills = ['/HTML5.svg', "/CSS3.svg", '/JavaScript.svg', '/ts.svg', '/React.svg', '/next.svg', '/Redux.svg', '/vsc.svg', '/MaterialUI.svg', '/supabase.svg', '/Git.svg', '/GitHub.svg', '/tail.svg', '/Bootstrap.svg', '/shadcn.svg', '/Vite.js.svg'];
 
 export const workExperience = [
     {
