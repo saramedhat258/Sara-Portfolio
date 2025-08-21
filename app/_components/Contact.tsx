@@ -1,4 +1,4 @@
-import { sendContact } from "../api/contact/route";
+import { sendContact } from "../actions";
 import { BackgroundBeams } from "./ui/BeamsBg"
 import MagicButton from "./ui/MagicButton"
 

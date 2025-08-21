@@ -1,4 +1,3 @@
-// app/actions.ts
 "use server";
 
 export async function sendContact(formData: FormData): Promise<void> {
@@ -16,8 +15,4 @@ export async function sendContact(formData: FormData): Promise<void> {
         headers: { "Content-Type": "application/json" },
     });
 
-    // ✅ متترجعيش object (لازم void)
 }
-
-
-
