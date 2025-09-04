@@ -1,3 +1,5 @@
+@custom-variant dark (&:where(.dark, .dark *));
+
 @import 'tailwindcss';
 
 @theme inline {
@@ -42,7 +44,7 @@
     --radius-lg: var(--radius);
     --radius-md: calc(var(--radius) - 2px);
     --radius-sm: calc(var(--radius) - 4px);
-    
+
     ----breakpoint-xm:900px;
     --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
     --animate-scroll: scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite;
