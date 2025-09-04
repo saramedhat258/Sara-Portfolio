@@ -25,12 +25,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="color-scheme" content="light dark" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
+          forcedTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
