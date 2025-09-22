@@ -124,7 +124,7 @@ export const workExperience = [
     },
     {
         id: 2,
-        title: "IEEE voolanteer - Frontend commit ",
+        title: "IEEE volunteer - Frontend commit ",
         desc: "Developed differnt projects, led a team of beginner developers in building a web project. ",
         thumbnail: "/exp4.svg",
     },
