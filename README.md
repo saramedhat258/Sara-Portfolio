@@ -5,19 +5,19 @@ It showcases my profile, projects, skills, and courses, along with a contact for
 
 # 🚀 Features
 
-📝 Overview / Summary: A short introduction about me.
-💻 Projects Section: Showcasing the main projects I’ve worked on.
-⚡ Skills Section: Highlighting my technical and soft skills.
-🎓 Courses Section: Courses and certifications I’ve completed.
-📬 Contact Form: Built with Next.js Server Actions, connected to Google Sheets to automatically log incoming requests.
+1. 📝 Overview / Summary: A short introduction about me.
+2. 💻 Projects Section: Showcasing the main projects I’ve worked on.
+3. ⚡ Skills Section: Highlighting my technical and soft skills.
+4. 🎓 Courses Section: Courses and certifications I’ve completed.
+5. 📬 Contact Form: Built with Next.js Server Actions, connected to Google Sheets to automatically log incoming requests.
 
 # 🛠️ Tech Stack
 
-Framework: Next.js
-Styling and Animation: Tailwind CSS and Aceternity UI
-Forms Handling: Next.js Server Actions
-Database / Storage: Google Sheets (for storing form submissions)
-Deployment: Vercel 
+1. Framework: Next.js
+2. Styling and Animation: Tailwind CSS and Aceternity UI
+3. Forms Handling: Next.js Server Actions
+4. Database / Storage: Google Sheets (for storing form submissions)
+5. Deployment: Vercel 
 
 # Setup instructions 
 
