@@ -19,7 +19,7 @@ export function LampDemo({ title,classname }: LampDemoProps) {
                     duration: 0.8,
                     ease: "easeInOut",
                 }}
-                className="md:-translate-y-6 -translate-y-3 bg-gradient-to-br from-slate-300 pb-4 to-slate-500  bg-clip-text text-center text-lg font-medium tracking-tight text-transparent lg:text-3xl"
+                className="md:-translate-y-6 -translate-y-3 bg-gradient-to-br from-slate-300 pb-4 to-slate-500  bg-clip-text text-center text-lg font-medium tracking-tight text-white/40 lg:text-3xl"
             >
                 {title}
             </motion.h1>

@@ -107,7 +107,7 @@ export const projects = [
         des: "“Islamic website for daily spiritual reminders — includes Morning & Evening Azkar,full Quran reading & audio, and more...”",
         img: "/zakrny.png",
         iconLists: ["/HTML5.svg", "/JavaScript.svg", "/CSS3.svg"],
-        demo: "/https://saramedhat258.github.io/Zakrny/",
+        demo: "https://saramedhat258.github.io/Zakrny/",
         github: "https://github.com/saramedhat258/Zakrny"
     },
 

@@ -71,17 +71,17 @@ export const FloatingNav = ({ navItems, className }: FloatingNavProps) => {
                         key={`link=${idx}`}
                         href={navItem.link}
                         className={cn(
-                            "relative dark:text-neutral-50 items-center flex scroll-smooth sm:space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
+                            "relative dark:text-neutral-50 items-center focus:outline-0 flex scroll-smooth sm:space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
                         )}
                     >
                         <span className="">{navItem.icon}</span>
-                        <span className="!cursor-pointer text-sm">{navItem.name}</span>
+                        <span className="!cursor-pointer sm:text-sm text-[13px]">{navItem.name}</span>
                     </a>
                 ))}
                 <Link
-                    href="/sara-medhat.pdf"
+                    href="/saracv.pdf"
                     download="Sara-medhat-CV.pdf"
-                    className=" flex gap-2 items-center border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white sm:px-4 px-2 py-2 rounded-full">
+                    className=" flex gap-2 items-center border sm:text-sm text-[13px] font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white sm:px-4 px-2 py-2 rounded-full">
                     <span>CV</span>
                     <Download size={20} />
                     <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />

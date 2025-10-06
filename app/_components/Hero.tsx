@@ -2,7 +2,7 @@ import { Spotlight } from "./ui/Spotlight"
 import { cn } from "@/app/_lib/utils"
 import { TextGenerateEffect } from "./ui/TextGenerator"
 import MagicButton from "./ui/MagicButton"
-import { ArrowUpRight } from "lucide-react"
+import { ArrowUpRight, Github, Linkedin, Mail } from "lucide-react"
 import Link from "next/link"
 function Hero() {
     return (
@@ -24,23 +24,33 @@ function Hero() {
                 {/* Radial gradient for the container to give a faded look */}
                 <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100" />
             </div>
-            <div className="flex justify-center relative sm:mb-10 z-10">
+            <div className="flex justify-center relative sm:mb-5 z-10">
                 <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col justify-center items-center">
                     <p className="text-sm uppercase tracking-wide">Dynamic Web Magic with Next.js</p>
                     <TextGenerateEffect
                         words="Transforming ideas into seamless web solutions."
                         className="sm:text-[40px] text-3xl lg:text-6xl text-center capitalize "
                     />
-                    <p className="text-center pt-5 text-sm md:text-lg lg:text-2xl capitalize mb-5">Hi! I’m sara, a passionate Front-End Developer with 3 years of experience.</p>
+                    <p className="text-center pt-5 text-sm md:text-lg lg:text-2xl capitalize mb-5">I’m sara, a passionate Front-End Developer with 3 years of experience.</p>
+                    
                     <Link href="https://github.com/saramedhat258" target="_blank">
                         <MagicButton text="See My Work" icon={<ArrowUpRight />} />
                     </Link>
-
+                    <div className="flex gap-5 mt-5">
+                        <Link href="https://github.com/saramedhat258" target='_blank'>
+                            <Github />
+                        </Link>
+                        <Link href="https://www.linkedin.com/in/sara-medhat-bayoumi/" target='_blank'>
+                            <Linkedin />
+                        </Link>
+                        <Link href="mailto:sara2003me@gmail.com" target='_blank'>
+                            <Mail />
+                        </Link>
+                    </div>
                 </div>
-
             </div>
-        </>
 
+        </>
     )
 }
 
