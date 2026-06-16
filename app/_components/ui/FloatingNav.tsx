@@ -79,8 +79,8 @@ export const FloatingNav = ({ navItems, className }: FloatingNavProps) => {
                     </a>
                 ))}
                 <a
-                    href="/SaraCV.pdf"
-                    download="SaraCV.pdf"
+                    href="/saracv.pdf"
+                    download="saracv.pdf"
                     target="_blank"
                     className=" flex gap-2 items-center border sm:text-sm text-[13px] font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white sm:px-4 px-2 py-2 rounded-full">
                     <span>CV</span>
