@@ -24,7 +24,7 @@ function Experiences() {
 
                                 <div className="flex flex-col gap-3 text-start">
                                     <p className="font-medium sm:text-2xl text-xl">{work.title}</p>
-                                    <p className="sm:text-[17px]">{work.desc}</p>
+                                    <p className="sm:text-[17px] text-gray-400">{work.desc}</p>
                                 </div>
                             </div>
                         </Button>

@@ -5,7 +5,7 @@ import React from 'react'
 function Footer() {
     return (
         <footer className="py-10 w-full flex flex-col sm:flex-row gap-5 bg-slate-900/100 px-10 text-white justify-between items-center">
-            <p>Copyright ©2025 Sara Medhat</p>
+            <p>Copyright ©{new Date().getFullYear()} Sara Medhat</p>
             <div className="flex gap-5">
                 <Link href="https://github.com/saramedhat258" target='_blank'>
                     <Github />

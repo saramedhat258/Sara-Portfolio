@@ -29,7 +29,7 @@ export function Projects() {
                                     <p className='sm:text-3xl text-lg font-medium '>
                                         {proj.title}
                                     </p>
-                                    <p className='text-sm sm:text-base'>
+                                    <p className='text-sm sm:text-base text-gray-400'>
                                         {proj.des}
                                     </p>
                                 </div>
@@ -55,7 +55,7 @@ export function Projects() {
                                             <Link href={proj.demo} target='_blank'>
                                                 <MagicButton
                                                     text='Demo'
-                                                    width='w-fit sm:text-base text-sm'
+                                                    width='w-fit sm:text-base text-sm '
                                                 />
                                             </Link>
                                         }
@@ -63,7 +63,7 @@ export function Projects() {
                                             <Link href={proj.github} target='_blank'>
                                                 <MagicButton
                                                     text='Code'
-                                                    width='w-fit sm:text-base text-sm'
+                                                    width='w-fit sm:text-base text-sm '
                                                 />
                                             </Link>
                                         }

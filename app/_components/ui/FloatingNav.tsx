@@ -1,5 +1,5 @@
 "use client";
-import React, { JSX, useState } from "react";
+import React, { useState } from "react";
 import {
     motion,
     AnimatePresence,
@@ -79,8 +79,8 @@ export const FloatingNav = ({ navItems, className }: FloatingNavProps) => {
                     </a>
                 ))}
                 <Link
-                    href="/saracv.pdf"
-                    download="Sara-medhat-CV.pdf"
+                    href="/SaraCV.pdf"
+                    download="SaraCV.pdf"
                     className=" flex gap-2 items-center border sm:text-sm text-[13px] font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white sm:px-4 px-2 py-2 rounded-full">
                     <span>CV</span>
                     <Download size={20} />
