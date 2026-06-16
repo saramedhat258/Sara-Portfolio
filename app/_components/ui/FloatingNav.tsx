@@ -78,14 +78,15 @@ export const FloatingNav = ({ navItems, className }: FloatingNavProps) => {
                         <span className="!cursor-pointer sm:text-sm text-[13px]">{navItem.name}</span>
                     </a>
                 ))}
-                <Link
+                <a
                     href="/SaraCV.pdf"
                     download="SaraCV.pdf"
+                    target="_blank"
                     className=" flex gap-2 items-center border sm:text-sm text-[13px] font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white sm:px-4 px-2 py-2 rounded-full">
                     <span>CV</span>
                     <Download size={20} />
                     <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
-                </Link>
+                </a>
             </motion.div>
         </AnimatePresence>
     );
